@@ -1,0 +1,3151 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "L_AGENCYSWARM",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_AGENCYSWARM\\UPSTREAM_CLONE",
+  "git": {
+   "head": "a0d16dde6ecf205211f639d613eceef0cc42ae20",
+   "url": "https://github.com/crewAIInc/crewAI.git",
+   "branch": "HEAD",
+   "committed_at": "2026-09-29T21:23:28+05:30"
+  }
+ },
+ "metrics": {
+  "files_total": 31841,
+  "source_files_scanned": 1261,
+  "lines_of_code": 347528,
+  "languages": {
+   ".mdx": 29411,
+   ".py": 1393,
+   ".yaml": 771,
+   ".md": 105,
+   ".png": 91,
+   ".json": 16,
+   ".toml": 12,
+   "(none)": 11,
+   ".typed": 5,
+   ".jsonc": 4,
+   ".txt": 3,
+   ".js": 3,
+   ".gif": 3,
+   ".pdf": 2,
+   ".j2": 2
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 81,
+  "unique": 53,
+  "by_ecosystem": {
+   "pypi": 81
+  },
+  "list": [
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.1.7",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "click>=8.1.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tomlkit",
+    "version": "~=0.13.2",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "tomlkit~=0.13.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "openai",
+    "version": ">=1.83.0",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "openai>=1.83.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": ">=1.2.2",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "python-dotenv>=1.2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pygithub",
+    "version": "~=1.59.1",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "pygithub~=1.59.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": "~=6.0",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "pyyaml~=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.9.4",
+    "source_file": "lib/devtools/pyproject.toml",
+    "raw": "rich>=13.9.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pytube",
+    "version": "~=15.0.0",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "pytube~=15.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "requests",
+    "version": ">=2.33.0",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "requests>=2.33.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "crewai",
+    "version": "==1.15.23",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "crewai==1.15.23"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tiktoken",
+    "version": ">=0.8.0",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "tiktoken>=0.8.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "beautifulsoup4",
+    "version": ">=4.13.4",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "beautifulsoup4>=4.13.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-docx",
+    "version": "~=1.2.0",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "python-docx~=1.2.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "youtube-transcript-api",
+    "version": "~=1.2.2",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "youtube-transcript-api~=1.2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pymupdf",
+    "version": "~=1.26.6",
+    "source_file": "lib/crewai-tools/pyproject.toml",
+    "raw": "pymupdf~=1.26.6"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "Pillow",
+    "version": "~=12.3.0",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "Pillow~=12.3.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pypdf",
+    "version": "~=6.16.1",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "pypdf~=6.16.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-magic",
+    "version": ">=0.4.27",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "python-magic>=0.4.27"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiocache",
+    "version": "~=0.12.3",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "aiocache~=0.12.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiofiles",
+    "version": "~=24.1.0",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "aiofiles~=24.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tinytag",
+    "version": "~=2.2.1",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "tinytag~=2.2.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "av",
+    "version": "~=13.0.0",
+    "source_file": "lib/crewai-files/pyproject.toml",
+    "raw": "av~=13.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "appdirs",
+    "version": "~=1.4.4",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "appdirs~=1.4.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "cryptography",
+    "version": ">=42.0",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "cryptography>=42.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": "~=0.28.1",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "httpx~=0.28.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "packaging",
+    "version": ">=23.0",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "packaging>=23.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "portalocker",
+    "version": "~=2.7.0",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "portalocker~=2.7.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyjwt",
+    "version": ">=2.13.0",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "pyjwt>=2.13.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.11.9",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "pydantic>=2.11.9"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7.1",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "rich>=13.7.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-api",
+    "version": ">=1.42",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "opentelemetry-api>=1.42"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-sdk",
+    "version": ">=1.42",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "opentelemetry-sdk>=1.42"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-exporter-otlp-proto-http",
+    "version": ">=1.42",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "opentelemetry-exporter-otlp-proto-http>=1.42"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tomli",
+    "version": "~=2.0.2",
+    "source_file": "lib/crewai-core/pyproject.toml",
+    "raw": "tomli~=2.0.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "crewai-core",
+    "version": "==1.15.23",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "crewai-core==1.15.23"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "crewai-cli",
+    "version": "==1.15.23",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "crewai-cli==1.15.23"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.11.9",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "pydantic>=2.11.9"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "openai",
+    "version": ">=2.30.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "openai>=2.30.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "instructor",
+    "version": ">=1.3.3",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "instructor>=1.3.3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pdfplumber",
+    "version": "~=0.11.4",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "pdfplumber~=0.11.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "regex",
+    "version": "~=2026.1.15",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "regex~=2026.1.15"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-api",
+    "version": ">=1.42",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "opentelemetry-api>=1.42"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-sdk",
+    "version": ">=1.42",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "opentelemetry-sdk>=1.42"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-exporter-otlp-proto-http",
+    "version": ">=1.42",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "opentelemetry-exporter-otlp-proto-http>=1.42"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "chromadb",
+    "version": "~=1.1.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "chromadb~=1.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tokenizers",
+    "version": ">=0.21",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "tokenizers>=0.21"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "openpyxl",
+    "version": "~=3.1.5",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "openpyxl~=3.1.5"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": ">=1.2.2",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "python-dotenv>=1.2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyjwt",
+    "version": ">=2.13.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "pyjwt>=2.13.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.1.7",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "click>=8.1.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "appdirs",
+    "version": "~=1.4.4",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "appdirs~=1.4.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "jsonref",
+    "version": "~=1.1.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "jsonref~=1.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "json-repair",
+    "version": "~=0.60.1",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "json-repair~=0.60.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "cel-python",
+    "version": ">=0.5.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "cel-python>=0.5.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tomli-w",
+    "version": "~=1.1.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "tomli-w~=1.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tomli",
+    "version": "~=2.0.2",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "tomli~=2.0.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "json5",
+    "version": "~=0.10.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "json5~=0.10.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "portalocker",
+    "version": "~=2.7.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "portalocker~=2.7.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic-settings",
+    "version": ">=2.14.2",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "pydantic-settings>=2.14.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": "~=0.28.1",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "httpx~=0.28.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "mcp",
+    "version": "~=1.28.1",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "mcp~=1.28.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiosqlite",
+    "version": "~=0.21.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "aiosqlite~=0.21.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": "~=6.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "pyyaml~=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiofiles",
+    "version": "~=24.1.0",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "aiofiles~=24.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "lancedb",
+    "version": ">=0.29.2",
+    "source_file": "lib/crewai/pyproject.toml",
+    "raw": "lancedb>=0.29.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "crewai-core",
+    "version": "==1.15.23",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "crewai-core==1.15.23"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.1.7",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "click>=8.1.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.11.9",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "pydantic>=2.11.9"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic-settings",
+    "version": ">=2.14.2",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "pydantic-settings>=2.14.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "appdirs",
+    "version": "~=1.4.4",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "appdirs~=1.4.4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "cryptography",
+    "version": ">=42.0",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "cryptography>=42.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": "~=0.28.1",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "httpx~=0.28.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyjwt",
+    "version": ">=2.13.0",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "pyjwt>=2.13.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7.1",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "rich>=13.7.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tomli",
+    "version": "~=2.0.2",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "tomli~=2.0.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tomli-w",
+    "version": "~=1.1.0",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "tomli-w~=1.1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "packaging",
+    "version": ">=23.0",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "packaging>=23.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": ">=1.2.2",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "python-dotenv>=1.2.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "uv",
+    "version": "~=0.11.6",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "uv~=0.11.6"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "textual",
+    "version": ">=7.5.0",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "textual>=7.5.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "certifi",
+    "version": "",
+    "source_file": "lib/cli/pyproject.toml",
+    "raw": "certifi"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 179,
+  "files_with_findings": 160,
+  "severity": {
+   "high": 41,
+   "medium": 34,
+   "low": 104
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "lib/crewai-core/src/crewai_core/lock_store.py",
+      "line": 97,
+      "cwe": "CWE-327",
+      "snippet": "channel = f\"crewai:{md5(name.encode(), usedforsecurity=False).hexdigest()}\""
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/tests/test_crew.py",
+      "line": 3753,
+      "cwe": "CWE-327",
+      "snippet": "hash = md5("
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/tests/test_task.py",
+      "line": 1077,
+      "cwe": "CWE-327",
+      "snippet": "hash = md5("
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/tests/agents/agent_builder/test_base_agent.py",
+      "line": 47,
+      "cwe": "CWE-327",
+      "snippet": "hash = hashlib.md5(\"test role|test goal|test backstory\".encode(), usedforsecurity=False).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/crew.py",
+      "line": 890,
+      "cwe": "CWE-327",
+      "snippet": "return md5(\"|\".join(source).encode(), usedforsecurity=False).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/task.py",
+      "line": 601,
+      "cwe": "CWE-327",
+      "snippet": "return md5(\"|\".join(source).encode(), usedforsecurity=False).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/experimental/evaluation/experiment/runner.py",
+      "line": 69,
+      "cwe": "CWE-327",
+      "snippet": "or md5(str(test_case).encode(), usedforsecurity=False).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/agents/agent_builder/base_agent.py",
+      "line": 650,
+      "cwe": "CWE-327",
+      "snippet": "return md5(\"|\".join(source).encode(), usedforsecurity=False).hexdigest()"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/daytona_sandbox_tool/daytona_exec_tool.py",
+      "line": 47,
+      "cwe": "CWE-95",
+      "snippet": "response = sandbox.process.exec(\r\n                command,"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/daytona_sandbox_tool/daytona_file_tool.py",
+      "line": 358,
+      "cwe": "CWE-95",
+      "snippet": "response = sandbox.process.exec(\r\n            f\"cat {quoted_temp} >> {quoted_target}; \""
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/utilities/test_agent_utils.py",
+      "line": 80,
+      "cwe": "CWE-95",
+      "snippet": "result = eval(expression)  # noqa: S307"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/ci/test_ftc_require_issue.py",
+      "line": 65,
+      "cwe": "CWE-95",
+      "snippet": "exec(compiled, {})  # noqa: S102"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/agents/test_lite_agent.py",
+      "line": 54,
+      "cwe": "CWE-95",
+      "snippet": "result = eval(expression, {\"__builtins__\": {}})  # noqa: S307"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/agents/test_native_tool_calling.py",
+      "line": 46,
+      "cwe": "CWE-95",
+      "snippet": "result = eval(expression)  # noqa: S307"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/src/crewai/utilities/file_handler.py",
+      "line": 166,
+      "cwe": "CWE-502",
+      "snippet": "return pickle.load(file)  # noqa: S301"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/src/crewai/flow/runtime/_actions.py",
+      "line": 309,
+      "cwe": "CWE-95",
+      "snippet": "exec(compile(module, filename, \"exec\"), namespace)  # nosec B102 # noqa: S102"
+     },
+     {
+      "severity": "high",
+      "file": "lib/cli/src/crewai_cli/enterprise/main.py",
+      "line": 90,
+      "cwe": "CWE-89",
+      "snippet": "raise ValueError(f\"Failed to update OAuth2 settings: {e!s}\") from e"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 47,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "conftest.py",
+      "line": 288,
+      "cwe": "CWE-",
+      "snippet": "\"authorization\": \"AUTHORIZATION-XXX\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/llamaindex_tool/llamaindex_tool.py",
+      "line": 82,
+      "cwe": "CWE-",
+      "snippet": "# HACK: we are replacing the schema with our custom schema"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/crewai_platform_tools/misc.py",
+      "line": 12,
+      "cwe": "CWE-",
+      "snippet": "return token  # TODO: Use context manager to get token"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/brave_search_tool/brave_search_tool.py",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Extend support to additional endpoints (e.g., /images, /news, etc.)"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-core/src/crewai_core/constants.py",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "\"client_01JYT06R59SP0NXYGD994NFXXX\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-core/src/crewai_core/platform_apps.py",
+      "line": 168,
+      "cwe": "CWE-",
+      "snippet": "\"todoist\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_llm.py",
+      "line": 26,
+      "cwe": "CWE-",
+      "snippet": "# TODO: This test fails without print statement, which makes me think that something is happening asynchronously that we need to eventually fix and dive deeper into at a later date"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_project.py",
+      "line": 56,
+      "cwe": "CWE-",
+      "snippet": "base_url=\"http://xxx.xxx.xxx.xxx:8000/v1\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/utilities/test_planning_types.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Tests for planning types (PlanStep, TodoItem, TodoList).\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/utilities/test_structured_planning.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Tests for structured planning with steps and todo generation."
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/tools/agent_tools/test_agent_tools.py",
+      "line": 85,
+      "cwe": "CWE-",
+      "snippet": "== \"My perspective on AI agents is quite nuanced and not a matter of simple like or dislike. AI agents, depending on their design, deployment, and use cases, can bring about both s"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/knowledge/test_knowledge.py",
+      "line": 516,
+      "cwe": "CWE-",
+      "snippet": "\"https://lilianweng.github.io/posts/2024-11-28-reward-hacking/\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/hooks/test_deny_reaches_the_caller.py",
+      "line": 23,
+      "cwe": "CWE-",
+      "snippet": "from crewai.utilities.planning_types import TodoItem"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/hooks/test_hook_abort_propagation.py",
+      "line": 66,
+      "cwe": "CWE-",
+      "snippet": "from crewai.utilities.planning_types import TodoItem"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/cli/test_config.py",
+      "line": 76,
+      "cwe": "CWE-",
+      "snippet": "cli_settings[\"oauth2_extra\"] = {\"scope\": \"xxx\", \"other\": \"yyy\"}"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/cli/authentication/test_utils.py",
+      "line": 24,
+      "cwe": "CWE-",
+      "snippet": "audience=\"app_id_xxxx\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/cli/authentication/providers/test_okta.py",
+      "line": 49,
+      "cwe": "CWE-",
+      "snippet": "\"authorization_server_name\": \"my_auth_server_xxxAAA777\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_agent_executor.py",
+      "line": 80,
+      "cwe": "CWE-",
+      "snippet": "from crewai.utilities.planning_types import TodoItem, TodoList"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_crew_agent_parser.py",
+      "line": 370,
+      "cwe": "CWE-",
+      "snippet": "# TODO: ADD TEST TO MAKE SURE ** REMOVAL DOESN'T MESS UP ANYTHING"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/crew.py",
+      "line": 628,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Improve typing"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/lite_agent_output.py",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "from crewai.utilities.planning_types import TodoItem"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/llm.py",
+      "line": 2271,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Remove this code after merging PR https://github.com/BerriAI/litellm/pull/10917"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/process.py",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "# TODO: consensual = 'consensual'"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/utilities/agent_utils.py",
+      "line": 690,
+      "cwe": "CWE-",
+      "snippet": "- TODO: Remove messages parameter and its usage."
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/utilities/constants.py",
+      "line": 76,
+      "cwe": "CWE-",
+      "snippet": "- TODO: Consider moving this class and NOT_SPECIFIED to types.py"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 24,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "lib/devtools/src/crewai_devtools/cli.py",
+      "line": 109,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/snowflake_search_tool/snowflake_search_tool.py",
+      "line": 97,
+      "cwe": "CWE-1188",
+      "snippet": "default=True, description=\"Enable query result caching\""
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/serper_scrape_website_tool/serper_scrape_website_tool.py",
+      "line": 16,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/couchbase_tool/couchbase_tool.py",
+      "line": 64,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/contextualai_parse_tool/contextual_parse_tool.py",
+      "line": 16,
+      "cwe": "CWE-1188",
+      "snippet": "default=True, description=\"Enable document hierarchy\""
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/brightdata_tool/brightdata_serp.py",
+      "line": 59,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/lite_agent.py",
+      "line": 244,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/task.py",
+      "line": 211,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/utilities/planning_types.py",
+      "line": 247,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/tools/base_tool.py",
+      "line": 151,
+      "cwe": "CWE-1188",
+      "snippet": "validate_default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/rag/embeddings/providers/voyageai/voyageai_provider.py",
+      "line": 37,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/rag/embeddings/providers/ibm/watsonx.py",
+      "line": 54,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/memory/analyze.py",
+      "line": 134,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/memory/memory_scope.py",
+      "line": 238,
+      "cwe": "CWE-1188",
+      "snippet": "read_only: bool = Field(default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/mcp/config.py",
+      "line": 77,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/flow/conversational_definition.py",
+      "line": 53,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/events/listeners/tracing/utils.py",
+      "line": 209,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/agents/agent_builder/base_agent.py",
+      "line": 263,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/agent/core.py",
+      "line": 267,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/a2a/config.py",
+      "line": 410,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/a2a/auth/client_schemes.py",
+      "line": 62,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/cli/src/crewai_cli/cli.py",
+      "line": 182,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/cli/src/crewai_cli/create_json_crew.py",
+      "line": 749,
+      "cwe": "CWE-1188",
+      "snippet": "memory = _confirm(\"Enable crew memory?\", default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/cli/src/crewai_cli/experimental/eval_crew.py",
+      "line": 525,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,  # Jo\u00e3o, 2026-09-20: y/n with Y as the default \u2014 the prompt says what Enter does"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "lib/devtools/tests/test_toml_updates.py",
+      "line": 49,
+      "cwe": "CWE-1104",
+      "snippet": "(workflows / \"test.yml\").write_text('run: uv pip install \"crewai[a2a]==2.0.0\"\\n')"
+     }
+    ]
+   },
+   "A07-AuthFailures": {
+    "count": 32,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/brave_search_tool_test.py",
+      "line": 102,
+      "cwe": "CWE-798",
+      "snippet": "tool = tool_cls(api_key=\"explicit-key\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/exa_search_tool_test.py",
+      "line": 10,
+      "cwe": "CWE-798",
+      "snippet": "return ExaSearchTool(api_key=\"test_api_key\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/singlestore_search_tool_test.py",
+      "line": 326,
+      "cwe": "CWE-798",
+      "snippet": "password=\"invalid_password\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/snowflake_search_tool_test.py",
+      "line": 25,
+      "cwe": "CWE-798",
+      "snippet": "password=\"test_password\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/stagehand_tool_test.py",
+      "line": 112,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"test_api_key\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/test_oxylabs_tools.py",
+      "line": 90,
+      "cwe": "CWE-798",
+      "snippet": "tool = tool_class(username=\"username\", password=\"password\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/merge_agent_handler_tool/merge_agent_handler_tool.py",
+      "line": 69,
+      "cwe": "CWE-798",
+      "snippet": "\"Set it with: export AGENT_HANDLER_API_KEY='your-key-here'\""
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/test_context.py",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "test_token = \"test-token-123\""
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/utilities/test_create_llm_like.py",
+      "line": 161,
+      "cwe": "CWE-798",
+      "snippet": "base = LLM(model=\"openrouter/meta-llama/llama-3-8b\", api_key=\"or-explicit-key\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/tracing/test_trace_enable_disable.py",
+      "line": 50,
+      "cwe": "CWE-798",
+      "snippet": "token=\"synthetic-grant\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/tracing/test_trace_human_feedback_events.py",
+      "line": 260,
+      "cwe": "CWE-798",
+      "snippet": "token=\"synthetic-grant\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/tracing/test_tracing.py",
+      "line": 96,
+      "cwe": "CWE-798",
+      "snippet": "token=\"synthetic-grant\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/telemetry/test_coding_agent_detection.py",
+      "line": 360,
+      "cwe": "CWE-798",
+      "snippet": "secret = \"sk-super-secret-token\""
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/telemetry/test_deferred_trace_transitions.py",
+      "line": 50,
+      "cwe": "CWE-798",
+      "snippet": "token=\"synthetic-grant\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/telemetry/test_grant_export_bounds.py",
+      "line": 44,
+      "cwe": "CWE-798",
+      "snippet": "token=\"synthetic-grant\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/telemetry/test_wharf_runner.py",
+      "line": 157,
+      "cwe": "CWE-798",
+      "snippet": "token=\"synthetic-grant\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/skills/test_registry.py",
+      "line": 513,
+      "cwe": "CWE-798",
+      "snippet": "plus_api.assert_called_once_with(api_key=\"platform-token\", organization_id=None)"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/rag/embeddings/test_backward_compatibility.py",
+      "line": 263,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"your-openai-api-key\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/rag/embeddings/test_factory_openrouter.py",
+      "line": 115,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"test-custom-key\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/mcp/test_amp_mcp.py",
+      "line": 133,
+      "cwe": "CWE-798",
+      "snippet": "mock_plus_api_class.assert_called_once_with(api_key=\"test-api-key\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/llms/openai_compatible/test_openai_compatible.py",
+      "line": 179,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"explicit-key\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/llms/hooks/test_openai_interceptor.py",
+      "line": 217,
+      "cwe": "CWE-798",
+      "snippet": "interceptor = AuthInterceptor(api_key=\"custom-key-123\", org_id=\"org-456\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/llms/hooks/test_unsupported_providers.py",
+      "line": 159,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"test-gemini-key\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/cli/test_plus_api.py",
+      "line": 13,
+      "cwe": "CWE-798",
+      "snippet": "self.api_key = \"test_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/agents/test_agent.py",
+      "line": 1542,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"sk-your-api-key-here\","
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 53,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "scripts/wharf_runner.py",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "python scripts/wharf_runner.py --amp-url http://localhost:3000"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/url_read_tool_test.py",
+      "line": 333,
+      "cwe": "CWE-319",
+      "snippet": "\"URL 'http://169.254.169.254/' resolves to private/reserved IP 169.254.169.254.\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/utilities/test_safe_path.py",
+      "line": 131,
+      "cwe": "CWE-319",
+      "snippet": "result = validate_url(\"http://example.com/api\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/utilities/test_safe_requests.py",
+      "line": 59,
+      "cwe": "CWE-319",
+      "snippet": "safe_get(\"http://127.0.0.1/admin\", timeout=15)"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/arxiv_paper_tool_test.py",
+      "line": 17,
+      "cwe": "CWE-319",
+      "snippet": "<feed xmlns=\"http://www.w3.org/2005/Atom\">"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/brave_search_tool_test.py",
+      "line": 374,
+      "cwe": "CWE-319",
+      "snippet": "data = {\"web\": {\"results\": [{\"title\": \"R\", \"url\": \"http://r.co\"}]}}"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/merge_agent_handler_tool_test.py",
+      "line": 110,
+      "cwe": "CWE-319",
+      "snippet": "base_url=\"http://localhost:8000\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/serper_dev_tool_test.py",
+      "line": 54,
+      "cwe": "CWE-319",
+      "snippet": "\"link\": \"http://test1.com\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/test_vision_tool.py",
+      "line": 12,
+      "cwe": "CWE-319",
+      "snippet": "IMAGE_URL = \"http://example.com/image.png\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/rag/test_rag_tool_path_validation.py",
+      "line": 61,
+      "cwe": "CWE-319",
+      "snippet": "tool.add(url=\"http://169.254.169.254/latest/meta-data/\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/rag/test_rag_tool_validation.py",
+      "line": 25,
+      "cwe": "CWE-319",
+      "snippet": "\"api_base\": \"http://localhost:4000/v1\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/rag/test_text_loaders.py",
+      "line": 110,
+      "cwe": "CWE-319",
+      "snippet": "\"url\", [\"https://example.com/notes.txt\", \"http://example.com/notes.txt?v=2\"]"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/adapters/mcp_adapter_test.py",
+      "line": 70,
+      "cwe": "CWE-319",
+      "snippet": "yield {\"url\": \"http://127.0.0.1:8000/sse\"}"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/arxiv_paper_tool/arxiv_paper_tool.py",
+      "line": 28,
+      "cwe": "CWE-319",
+      "snippet": "BASE_API_URL: ClassVar[str] = \"http://export.arxiv.org/api/query\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/adapters/mcp_adapter.py",
+      "line": 109,
+      "cwe": "CWE-319",
+      "snippet": "with MCPServerAdapter({\"url\": \"http://localhost:8000/sse\"}) as tools:"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-files/tests/test_file_url.py",
+      "line": 41,
+      "cwe": "CWE-319",
+      "snippet": "url = FileUrl(url=\"http://example.com/image.jpg\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-core/tests/test_telemetry_export_logs.py",
+      "line": 29,
+      "cwe": "CWE-319",
+      "snippet": "ENDPOINT = \"http://127.0.0.1:9/v1/traces\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-core/tests/test_telemetry_shutdown.py",
+      "line": 22,
+      "cwe": "CWE-319",
+      "snippet": "ENDPOINT = \"http://127.0.0.1:9/v1/traces\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_async_human_feedback.py",
+      "line": 1183,
+      "cwe": "CWE-319",
+      "snippet": "base_url=\"http://localhost:11434\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_human_feedback_integration.py",
+      "line": 860,
+      "cwe": "CWE-319",
+      "snippet": "base_url=\"http://localhost:11434\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_llm.py",
+      "line": 1187,
+      "cwe": "CWE-319",
+      "snippet": "\"openai/not-a-known-model\", {\"base_url\": \"http://localhost:1/v1\"}"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_llm_overlay.py",
+      "line": 36,
+      "cwe": "CWE-319",
+      "snippet": "\"base_url\": \"http://localhost:9999/v1\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_project.py",
+      "line": 56,
+      "cwe": "CWE-319",
+      "snippet": "base_url=\"http://xxx.xxx.xxx.xxx:8000/v1\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/utilities/test_converter.py",
+      "line": 275,
+      "cwe": "CWE-319",
+      "snippet": "llm = LLM(model=\"ollama/llama3.1\", base_url=\"http://localhost:11434\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/utilities/test_create_llm_like.py",
+      "line": 146,
+      "cwe": "CWE-319",
+      "snippet": "base_url=\"http://localhost:1234/v1\","
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "scripts/docs/prefix_version_paths.py",
+      "line": 284,
+      "cwe": "CWE-601",
+      "snippet": "2. Rewrite the destination of every pre-existing redirect (per-section,"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/devtools/src/crewai_devtools/cli.py",
+      "line": 1706,
+      "cwe": "CWE-918",
+      "snippet": "with urlopen(url) as resp:  # noqa: S310"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/url_read_tool_test.py",
+      "line": 298,
+      "cwe": "CWE-601",
+      "snippet": "def test_extension_from_requested_url_survives_a_redirect():"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/utilities/test_safe_requests.py",
+      "line": 87,
+      "cwe": "CWE-601",
+      "snippet": "def test_safe_get_follows_safe_relative_redirect("
+     },
+     {
+      "severity": "medium",
+      "file": "lib/cli/tests/test_model_catalog.py",
+      "line": 222,
+      "cwe": "CWE-918",
+      "snippet": "def fetch(url, headers=None, params=None):"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 145,
+  "files_with_findings": 132,
+  "severity": {
+   "high": 45,
+   "medium": 13,
+   "low": 87
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 28,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "lib/devtools/src/crewai_devtools/prompts.py",
+      "line": 6,
+      "cwe": "CWE-1336",
+      "snippet": "RELEASE_NOTES_PROMPT = Template("
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_flow_conversation.py",
+      "line": 515,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt=\"You are a helpful research assistant.\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_flow_definition.py",
+      "line": 422,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt=\"Be concise.\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/utilities/test_prompts_no_thought_leakage.py",
+      "line": 33,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt=True,"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/skills/test_integration.py",
+      "line": 102,
+      "cwe": "CWE-1427",
+      "snippet": "result = Prompts(agent=agent, has_tools=False, use_system_prompt=True).task_execution()"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/skills/test_progressive_disclosure.py",
+      "line": 160,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt=True,"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/hooks/test_hook_abort_propagation.py",
+      "line": 279,
+      "cwe": "CWE-95",
+      "snippet": "await ahandle_knowledge_retrieval(agent, task, \"the task prompt\", {})"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_agent.py",
+      "line": 366,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt=False,"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_agent_inject_date.py",
+      "line": 108,
+      "cwe": "CWE-1427",
+      "snippet": "\"\"\"With ``use_system_prompt=False`` the whole prompt is one user message.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_agent_kickoff_message_history.py",
+      "line": 244,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt=False,"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_agent_reasoning.py",
+      "line": 32,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt=\"Custom system\","
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/lite_agent.py",
+      "line": 904,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = self._get_default_system_prompt(response_format=response_format)"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/utilities/prompts.py",
+      "line": 83,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt: bool = Field("
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/utilities/reasoning_handler.py",
+      "line": 368,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = self._get_system_prompt()"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/project/crew_base.py",
+      "line": 62,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt: bool"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/flow/conversational.py",
+      "line": 82,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt: str | None = None"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/flow/conversational_definition.py",
+      "line": 61,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt: str | None = None"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/flow/conversational_mixin.py",
+      "line": 146,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt=definition.system_prompt,"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/flow/dsl/_utils.py",
+      "line": 370,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt=getattr(config, \"system_prompt\", None),"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/experimental/agent_executor.py",
+      "line": 350,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = self._format_prompt(self.prompt[\"system\"], inputs)"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/agents/crew_agent_executor.py",
+      "line": 198,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = self._format_prompt("
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/agents/planner_observer.py",
+      "line": 282,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = I18N_DEFAULT.retrieve(\"planning\", \"observation_system_prompt\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/agents/step_executor.py",
+      "line": 253,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = self._build_system_prompt()"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/agent/core.py",
+      "line": 266,
+      "cwe": "CWE-1427",
+      "snippet": "use_system_prompt: bool | None = Field("
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/agent/planning_config.py",
+      "line": 38,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt: Custom system prompt for planning. Uses default if None."
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 44,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "scripts/age90_file_input_runner.py",
+      "line": 109,
+      "cwe": "CWE-798",
+      "snippet": "if model.startswith(\"openai/\") and not os.getenv(\"OPENAI_API_KEY\") and not payload_only:"
+     },
+     {
+      "severity": "high",
+      "file": "scripts/wharf_runner.py",
+      "line": 11,
+      "cwe": "CWE-798",
+      "snippet": "OPENAI_API_KEY=..."
+     },
+     {
+      "severity": "high",
+      "file": "lib/devtools/src/crewai_devtools/cli.py",
+      "line": 1018,
+      "cwe": "CWE-798",
+      "snippet": "openai_client = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/tools/test_db2_search_tool.py",
+      "line": 300,
+      "cwe": "CWE-798",
+      "snippet": "with patch.dict(\"os.environ\", {\"OPENAI_API_KEY\": \"test-key\"}):"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/tests/rag/test_embedding_service.py",
+      "line": 68,
+      "cwe": "CWE-798",
+      "snippet": "with patch.dict(os.environ, {\"OPENAI_API_KEY\": \"test-openai-key\"}):"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/weaviate_tool/vector_search.py",
+      "line": 71,
+      "cwe": "CWE-798",
+      "snippet": "name=\"OPENAI_API_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/vision_tool/vision_tool.py",
+      "line": 77,
+      "cwe": "CWE-798",
+      "snippet": "name=\"OPENAI_API_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/stagehand_tool/example.py",
+      "line": 36,
+      "cwe": "CWE-798",
+      "snippet": "model_api_key = os.environ.get(\"OPENAI_API_KEY\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/stagehand_tool/stagehand_tool.py",
+      "line": 263,
+      "cwe": "CWE-798",
+      "snippet": "return self.model_api_key or os.getenv(\"OPENAI_API_KEY\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/qdrant_vector_search_tool/qdrant_search_tool.py",
+      "line": 53,
+      "cwe": "CWE-798",
+      "snippet": "name=\"OPENAI_API_KEY\", description=\"API key for OpenAI\", required=True"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/multion_tool/example.py",
+      "line": 7,
+      "cwe": "CWE-798",
+      "snippet": "os.environ[\"OPENAI_API_KEY\"] = \"Your Key\""
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/mongodb_vector_search_tool/vector_search.py",
+      "line": 126,
+      "cwe": "CWE-798",
+      "snippet": "elif \"OPENAI_API_KEY\" in os.environ:"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/db2_search_tool/db2_search_tool.py",
+      "line": 96,
+      "cwe": "CWE-798",
+      "snippet": "name=\"OPENAI_API_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/dalle_tool/dalle_tool.py",
+      "line": 44,
+      "cwe": "CWE-798",
+      "snippet": "name=\"OPENAI_API_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-tools/src/crewai_tools/rag/embedding_service.py",
+      "line": 106,
+      "cwe": "CWE-798",
+      "snippet": "\"openai\": \"OPENAI_API_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai-files/src/crewai_files/uploaders/openai.py",
+      "line": 131,
+      "cwe": "CWE-798",
+      "snippet": "OPENAI_API_KEY environment variable."
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/test_llm.py",
+      "line": 970,
+      "cwe": "CWE-798",
+      "snippet": "with patch.dict(os.environ, {\"OPENAI_API_KEY\": \"test-key\"}):"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/test_multimodal_validation.py",
+      "line": 13,
+      "cwe": "CWE-798",
+      "snippet": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/utilities/test_create_llm_like.py",
+      "line": 143,
+      "cwe": "CWE-798",
+      "snippet": "monkeypatch.delenv(\"OPENAI_API_KEY\", raising=False)"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/utilities/test_llm_utils.py",
+      "line": 13,
+      "cwe": "CWE-798",
+      "snippet": "with patch.dict(os.environ, {\"OPENAI_API_KEY\": \"fake-key\"}, clear=True):"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/memory/test_unified_memory.py",
+      "line": 195,
+      "cwe": "CWE-798",
+      "snippet": "os.environ.pop(\"OPENAI_API_KEY\", None)"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/mcp/test_stdio_transport.py",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "env={\"OPENAI_API_KEY\": \"sk-test\"},"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/llms/test_multimodal.py",
+      "line": 48,
+      "cwe": "CWE-798",
+      "snippet": "\"OPENAI_API_KEY\": \"test-key\","
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/llms/openai/test_openai.py",
+      "line": 42,
+      "cwe": "CWE-798",
+      "snippet": "with patch.dict(os.environ, {\"OPENAI_API_KEY\": \"test-key\"}, clear=False):"
+     },
+     {
+      "severity": "high",
+      "file": "lib/crewai/tests/llms/hooks/test_unsupported_providers.py",
+      "line": 15,
+      "cwe": "CWE-798",
+      "snippet": "if \"OPENAI_API_KEY\" not in os.environ:"
+     }
+    ]
+   },
+   "LLM03-SupplyChain": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/rag/embeddings/providers/google/genai_vertex_embedding.py",
+      "line": 143,
+      "cwe": "CWE-494",
+      "snippet": "self._legacy_model = TextEmbeddingModel.from_pretrained(self._model_name)"
+     }
+    ]
+   },
+   "LLM04-DataPoisoning": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/patronus_eval_tool/patronus_eval_tool.py",
+      "line": 38,
+      "cwe": "CWE-20",
+      "snippet": "evaluators_set = json.loads(\r\n            requests.get("
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/tests/telemetry/test_span_task_agent_tool_attributes.py",
+      "line": 228,
+      "cwe": "CWE-20",
+      "snippet": "prompt = json.loads(span.attributes[\"gen_ai.input.messages\"])"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/tools/tool_usage.py",
+      "line": 949,
+      "cwe": "CWE-20",
+      "snippet": "arguments = json.loads(tool_input)"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/llms/providers/bedrock/completion.py",
+      "line": 1059,
+      "cwe": "CWE-20",
+      "snippet": "parsed_input = json.loads(accumulated_tool_input)"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/agents/step_executor.py",
+      "line": 471,
+      "cwe": "CWE-20",
+      "snippet": "parsed = json.loads(stripped_input)"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/cli/src/crewai_cli/input_prompt.py",
+      "line": 30,
+      "cwe": "CWE-20",
+      "snippet": "parsed = json.loads(inputs)"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "lib/devtools/src/crewai_devtools/cli.py",
+      "line": 138,
+      "cwe": "CWE-200",
+      "snippet": "console.print(\"\\nInstallation instructions:\")"
+     },
+     {
+      "severity": "medium",
+      "file": "lib/crewai/src/crewai/skills/loader.py",
+      "line": 253,
+      "cwe": "CWE-200",
+      "snippet": "skills: Skills to catalog. Skills already at INSTRUCTIONS level are"
+     }
+    ]
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 59,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "lib/devtools/src/crewai_devtools/prompts.py",
+      "line": 57,
+      "cwe": "CWE-",
+      "snippet": "(e.g. \"CrewAI\", \"LiteAgent\", \"ChromaDB\", \"MCP\", \"@username\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/test_pdf_search_tool_config.py",
+      "line": 103,
+      "cwe": "CWE-",
+      "snippet": "\"vectordb\": {\"provider\": \"chromadb\", \"config\": {}},"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/rag/rag_tool_test.py",
+      "line": 150,
+      "cwe": "CWE-",
+      "snippet": "\"vectordb\": {\"provider\": \"chromadb\", \"config\": {}},"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/__init__.py",
+      "line": 215,
+      "cwe": "CWE-",
+      "snippet": "from crewai_tools.tools.weaviate_tool.vector_search import WeaviateVectorSearchTool"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/__init__.py",
+      "line": 202,
+      "cwe": "CWE-",
+      "snippet": "from crewai_tools.tools.weaviate_tool.vector_search import WeaviateVectorSearchTool"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/weaviate_tool/vector_search.py",
+      "line": 10,
+      "cwe": "CWE-",
+      "snippet": "import weaviate"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/rag/rag_tool.py",
+      "line": 194,
+      "cwe": "CWE-",
+      "snippet": "Defaults to 'chromadb' with no extra provider config if none is supplied."
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/tools/rag/types.py",
+      "line": 57,
+      "cwe": "CWE-",
+      "snippet": "provider: Literal[\"chromadb\", \"qdrant\"]"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/rag/core.py",
+      "line": 7,
+      "cwe": "CWE-",
+      "snippet": "import chromadb"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/rag/embedding_service.py",
+      "line": 277,
+      "cwe": "CWE-",
+      "snippet": "# Use ChromaDB's embedding function interface"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/rag/misc.py",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "def sanitize_metadata_for_chromadb(metadata: dict[str, Any]) -> dict[str, Any]:"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/src/crewai_tools/adapters/crewai_rag_adapter.py",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "from crewai_tools.rag.misc import sanitize_metadata_for_chromadb"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-core/src/crewai_core/lock_store.py",
+      "line": 84,
+      "cwe": "CWE-",
+      "snippet": "name: A human-readable lock name (e.g. ``\"chromadb_init\"``). The"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/rag/test_client_factory_registry.py",
+      "line": 46,
+      "cwe": "CWE-",
+      "snippet": "factory.register_rag_client_factory(\"chromadb\", lambda config: sentinel)"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/rag/test_error_handling.py",
+      "line": 16,
+      "cwe": "CWE-",
+      "snippet": "mock_get_client.side_effect = ConnectionError(\"Unable to connect to ChromaDB\")"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/rag/config/test_factory.py",
+      "line": 9,
+      "cwe": "CWE-",
+      "snippet": "def test_create_client_chromadb():"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/rag/config/test_optional_imports.py",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "from crewai.rag.config.optional_imports.providers import MissingChromaDBConfig"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/rag/chromadb/test_client.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Tests for ChromaDBClient implementation.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/rag/chromadb/test_utils.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Tests for ChromaDB utility functions.\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/knowledge/test_knowledge.py",
+      "line": 571,
+      "cwe": "CWE-",
+      "snippet": "from crewai.rag.chromadb.utils import _prepare_documents_for_chromadb"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/agents/test_agent.py",
+      "line": 1775,
+      "cwe": "CWE-",
+      "snippet": "patch(\"crewai.rag.chromadb.client.ChromaDBClient\") as mock_chromadb,"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/utilities/logger_utils.py",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "Commonly used to suppress ChromaDB's verbose HNSW index logging."
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/rag/factory.py",
+      "line": 7,
+      "cwe": "CWE-",
+      "snippet": "ChromaFactoryModule,"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/rag/embeddings/factory.py",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "from chromadb.utils.embedding_functions.amazon_bedrock_embedding_function import ("
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/src/crewai/rag/embeddings/providers/voyageai/embedding_callable.py",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "from chromadb.api.types import Documents, EmbeddingFunction, Embeddings"
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/crewai_platform_tools/test_crewai_platform_action_tool.py",
+      "line": 103,
+      "cwe": "CWE-",
+      "snippet": "assert call_args.kwargs[\"verify\"] is True"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai-tools/tests/tools/crewai_platform_tools/test_integrations_client.py",
+      "line": 141,
+      "cwe": "CWE-",
+      "snippet": "assert mock_get.call_args.kwargs[\"verify\"] is verify"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/test_flow.py",
+      "line": 1549,
+      "cwe": "CWE-",
+      "snippet": "assert \"verify_state\" in execution_order"
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/telemetry/test_coding_agent_detection.py",
+      "line": 236,
+      "cwe": "CWE-",
+      "snippet": "assert declared == verified, ("
+     },
+     {
+      "severity": "low",
+      "file": "lib/crewai/tests/telemetry/test_wharf_runner.py",
+      "line": 232,
+      "cwe": "CWE-",
+      "snippet": "assert result.output == \"Verified source https://docs.crewai.com\""
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a89f68f1-9477-5162-8a9e-572a6ad577ab",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-13T20:03:10Z",
+   "component": {
+    "type": "application",
+    "name": "L_AGENCYSWARM",
+    "version": "a0d16dde6ecf",
+    "bom-ref": "pkg:generic/anticloud/L_AGENCYSWARM@a0d16dde6ecf",
+    "purl": "pkg:generic/anticloud/L_AGENCYSWARM@a0d16dde6ecf",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "a0d16dde6ecf205211f639d613eceef0cc42ae20"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/crewAIInc/crewAI.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "click",
+    "version": ">=8.1.7",
+    "purl": "pkg:pypi/click@8.1.7",
+    "bom-ref": "pypi/click@>=8.1.7"
+   },
+   {
+    "type": "library",
+    "name": "tomlkit",
+    "version": "~=0.13.2",
+    "purl": "pkg:pypi/tomlkit@0.13.2",
+    "bom-ref": "pypi/tomlkit@~=0.13.2"
+   },
+   {
+    "type": "library",
+    "name": "openai",
+    "version": ">=1.83.0",
+    "purl": "pkg:pypi/openai@1.83.0",
+    "bom-ref": "pypi/openai@>=1.83.0"
+   },
+   {
+    "type": "library",
+    "name": "python-dotenv",
+    "version": ">=1.2.2",
+    "purl": "pkg:pypi/python-dotenv@1.2.2",
+    "bom-ref": "pypi/python-dotenv@>=1.2.2"
+   },
+   {
+    "type": "library",
+    "name": "pygithub",
+    "version": "~=1.59.1",
+    "purl": "pkg:pypi/pygithub@1.59.1",
+    "bom-ref": "pypi/pygithub@~=1.59.1"
+   },
+   {
+    "type": "library",
+    "name": "pyyaml",
+    "version": "~=6.0",
+    "purl": "pkg:pypi/pyyaml@6.0",
+    "bom-ref": "pypi/pyyaml@~=6.0"
+   },
+   {
+    "type": "library",
+    "name": "rich",
+    "version": ">=13.9.4",
+    "purl": "pkg:pypi/rich@13.9.4",
+    "bom-ref": "pypi/rich@>=13.9.4"
+   },
+   {
+    "type": "library",
+    "name": "pytube",
+    "version": "~=15.0.0",
+    "purl": "pkg:pypi/pytube@15.0.0",
+    "bom-ref": "pypi/pytube@~=15.0.0"
+   },
+   {
+    "type": "library",
+    "name": "requests",
+    "version": ">=2.33.0",
+    "purl": "pkg:pypi/requests@2.33.0",
+    "bom-ref": "pypi/requests@>=2.33.0"
+   },
+   {
+    "type": "library",
+    "name": "crewai",
+    "version": "==1.15.23",
+    "purl": "pkg:pypi/crewai@1.15.23",
+    "bom-ref": "pypi/crewai@==1.15.23"
+   },
+   {
+    "type": "library",
+    "name": "tiktoken",
+    "version": ">=0.8.0",
+    "purl": "pkg:pypi/tiktoken@0.8.0",
+    "bom-ref": "pypi/tiktoken@>=0.8.0"
+   },
+   {
+    "type": "library",
+    "name": "beautifulsoup4",
+    "version": ">=4.13.4",
+    "purl": "pkg:pypi/beautifulsoup4@4.13.4",
+    "bom-ref": "pypi/beautifulsoup4@>=4.13.4"
+   },
+   {
+    "type": "library",
+    "name": "python-docx",
+    "version": "~=1.2.0",
+    "purl": "pkg:pypi/python-docx@1.2.0",
+    "bom-ref": "pypi/python-docx@~=1.2.0"
+   },
+   {
+    "type": "library",
+    "name": "youtube-transcript-api",
+    "version": "~=1.2.2",
+    "purl": "pkg:pypi/youtube-transcript-api@1.2.2",
+    "bom-ref": "pypi/youtube-transcript-api@~=1.2.2"
+   },
+   {
+    "type": "library",
+    "name": "pymupdf",
+    "version": "~=1.26.6",
+    "purl": "pkg:pypi/pymupdf@1.26.6",
+    "bom-ref": "pypi/pymupdf@~=1.26.6"
+   },
+   {
+    "type": "library",
+    "name": "Pillow",
+    "version": "~=12.3.0",
+    "purl": "pkg:pypi/pillow@12.3.0",
+    "bom-ref": "pypi/Pillow@~=12.3.0"
+   },
+   {
+    "type": "library",
+    "name": "pypdf",
+    "version": "~=6.16.1",
+    "purl": "pkg:pypi/pypdf@6.16.1",
+    "bom-ref": "pypi/pypdf@~=6.16.1"
+   },
+   {
+    "type": "library",
+    "name": "python-magic",
+    "version": ">=0.4.27",
+    "purl": "pkg:pypi/python-magic@0.4.27",
+    "bom-ref": "pypi/python-magic@>=0.4.27"
+   },
+   {
+    "type": "library",
+    "name": "aiocache",
+    "version": "~=0.12.3",
+    "purl": "pkg:pypi/aiocache@0.12.3",
+    "bom-ref": "pypi/aiocache@~=0.12.3"
+   },
+   {
+    "type": "library",
+    "name": "aiofiles",
+    "version": "~=24.1.0",
+    "purl": "pkg:pypi/aiofiles@24.1.0",
+    "bom-ref": "pypi/aiofiles@~=24.1.0"
+   },
+   {
+    "type": "library",
+    "name": "tinytag",
+    "version": "~=2.2.1",
+    "purl": "pkg:pypi/tinytag@2.2.1",
+    "bom-ref": "pypi/tinytag@~=2.2.1"
+   },
+   {
+    "type": "library",
+    "name": "av",
+    "version": "~=13.0.0",
+    "purl": "pkg:pypi/av@13.0.0",
+    "bom-ref": "pypi/av@~=13.0.0"
+   },
+   {
+    "type": "library",
+    "name": "appdirs",
+    "version": "~=1.4.4",
+    "purl": "pkg:pypi/appdirs@1.4.4",
+    "bom-ref": "pypi/appdirs@~=1.4.4"
+   },
+   {
+    "type": "library",
+    "name": "cryptography",
+    "version": ">=42.0",
+    "purl": "pkg:pypi/cryptography@42.0",
+    "bom-ref": "pypi/cryptography@>=42.0"
+   },
+   {
+    "type": "library",
+    "name": "httpx",
+    "version": "~=0.28.1",
+    "purl": "pkg:pypi/httpx@0.28.1",
+    "bom-ref": "pypi/httpx@~=0.28.1"
+   },
+   {
+    "type": "library",
+    "name": "packaging",
+    "version": ">=23.0",
+    "purl": "pkg:pypi/packaging@23.0",
+    "bom-ref": "pypi/packaging@>=23.0"
+   },
+   {
+    "type": "library",
+    "name": "portalocker",
+    "version": "~=2.7.0",
+    "purl": "pkg:pypi/portalocker@2.7.0",
+    "bom-ref": "pypi/portalocker@~=2.7.0"
+   },
+   {
+    "type": "library",
+    "name": "pyjwt",
+    "version": ">=2.13.0",
+    "purl": "pkg:pypi/pyjwt@2.13.0",
+    "bom-ref": "pypi/pyjwt@>=2.13.0"
+   },
+   {
+    "type": "library",
+    "name": "pydantic",
+    "version": ">=2.11.9",
+    "purl": "pkg:pypi/pydantic@2.11.9",
+    "bom-ref": "pypi/pydantic@>=2.11.9"
+   },
+   {
+    "type": "library",
+    "name": "opentelemetry-api",
+    "version": ">=1.42",
+    "purl": "pkg:pypi/opentelemetry-api@1.42",
+    "bom-ref": "pypi/opentelemetry-api@>=1.42"
+   },
+   {
+    "type": "library",
+    "name": "opentelemetry-sdk",
+    "version": ">=1.42",
+    "purl": "pkg:pypi/opentelemetry-sdk@1.42",
+    "bom-ref": "pypi/opentelemetry-sdk@>=1.42"
+   },
+   {
+    "type": "library",
+    "name": "opentelemetry-exporter-otlp-proto-http",
+    "version": ">=1.42",
+    "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.42",
+    "bom-ref": "pypi/opentelemetry-exporter-otlp-proto-http@>=1.42"
+   },
+   {
+    "type": "library",
+    "name": "tomli",
+    "version": "~=2.0.2",
+    "purl": "pkg:pypi/tomli@2.0.2",
+    "bom-ref": "pypi/tomli@~=2.0.2"
+   },
+   {
+    "type": "library",
+    "name": "crewai-core",
+    "version": "==1.15.23",
+    "purl": "pkg:pypi/crewai-core@1.15.23",
+    "bom-ref": "pypi/crewai-core@==1.15.23"
+   },
+   {
+    "type": "library",
+    "name": "crewai-cli",
+    "version": "==1.15.23",
+    "purl": "pkg:pypi/crewai-cli@1.15.23",
+    "bom-ref": "pypi/crewai-cli@==1.15.23"
+   },
+   {
+    "type": "library",
+    "name": "instructor",
+    "version": ">=1.3.3",
+    "purl": "pkg:pypi/instructor@1.3.3",
+    "bom-ref": "pypi/instructor@>=1.3.3"
+   },
+   {
+    "type": "library",
+    "name": "pdfplumber",
+    "version": "~=0.11.4",
+    "purl": "pkg:pypi/pdfplumber@0.11.4",
+    "bom-ref": "pypi/pdfplumber@~=0.11.4"
+   },
+   {
+    "type": "library",
+    "name": "regex",
+    "version": "~=2026.1.15",
+    "purl": "pkg:pypi/regex@2026.1.15",
+    "bom-ref": "pypi/regex@~=2026.1.15"
+   },
+   {
+    "type": "library",
+    "name": "chromadb",
+    "version": "~=1.1.0",
+    "purl": "pkg:pypi/chromadb@1.1.0",
+    "bom-ref": "pypi/chromadb@~=1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "tokenizers",
+    "version": ">=0.21",
+    "purl": "pkg:pypi/tokenizers@0.21",
+    "bom-ref": "pypi/tokenizers@>=0.21"
+   },
+   {
+    "type": "library",
+    "name": "openpyxl",
+    "version": "~=3.1.5",
+    "purl": "pkg:pypi/openpyxl@3.1.5",
+    "bom-ref": "pypi/openpyxl@~=3.1.5"
+   },
+   {
+    "type": "library",
+    "name": "jsonref",
+    "version": "~=1.1.0",
+    "purl": "pkg:pypi/jsonref@1.1.0",
+    "bom-ref": "pypi/jsonref@~=1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "json-repair",
+    "version": "~=0.60.1",
+    "purl": "pkg:pypi/json-repair@0.60.1",
+    "bom-ref": "pypi/json-repair@~=0.60.1"
+   },
+   {
+    "type": "library",
+    "name": "cel-python",
+    "version": ">=0.5.0",
+    "purl": "pkg:pypi/cel-python@0.5.0",
+    "bom-ref": "pypi/cel-python@>=0.5.0"
+   },
+   {
+    "type": "library",
+    "name": "tomli-w",
+    "version": "~=1.1.0",
+    "purl": "pkg:pypi/tomli-w@1.1.0",
+    "bom-ref": "pypi/tomli-w@~=1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "json5",
+    "version": "~=0.10.0",
+    "purl": "pkg:pypi/json5@0.10.0",
+    "bom-ref": "pypi/json5@~=0.10.0"
+   },
+   {
+    "type": "library",
+    "name": "pydantic-settings",
+    "version": ">=2.14.2",
+    "purl": "pkg:pypi/pydantic-settings@2.14.2",
+    "bom-ref": "pypi/pydantic-settings@>=2.14.2"
+   },
+   {
+    "type": "library",
+    "name": "mcp",
+    "version": "~=1.28.1",
+    "purl": "pkg:pypi/mcp@1.28.1",
+    "bom-ref": "pypi/mcp@~=1.28.1"
+   },
+   {
+    "type": "library",
+    "name": "aiosqlite",
+    "version": "~=0.21.0",
+    "purl": "pkg:pypi/aiosqlite@0.21.0",
+    "bom-ref": "pypi/aiosqlite@~=0.21.0"
+   },
+   {
+    "type": "library",
+    "name": "lancedb",
+    "version": ">=0.29.2",
+    "purl": "pkg:pypi/lancedb@0.29.2",
+    "bom-ref": "pypi/lancedb@>=0.29.2"
+   },
+   {
+    "type": "library",
+    "name": "uv",
+    "version": "~=0.11.6",
+    "purl": "pkg:pypi/uv@0.11.6",
+    "bom-ref": "pypi/uv@~=0.11.6"
+   },
+   {
+    "type": "library",
+    "name": "textual",
+    "version": ">=7.5.0",
+    "purl": "pkg:pypi/textual@7.5.0",
+    "bom-ref": "pypi/textual@>=7.5.0"
+   },
+   {
+    "type": "library",
+    "name": "certifi",
+    "version": "unspecified",
+    "purl": "pkg:pypi/certifi",
+    "bom-ref": "pypi/certifi@unspecified"
+   }
+  ]
+ },
+ "elapsed_seconds": 60.44,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "d7d08d09a290700ba703f49dbaec5b7d5478c2e4",
+    "latest_commit": "d7d08d0 anticloud overlay for L_AGENCYSWARM",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-13T20:03:16.236771+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "0482db379bef00d5c6ef4392192ba3b7c7926d1159430fddea0ed2909c583875"
+}

@@ -1,0 +1,410 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a89f68f1-9477-5162-8a9e-572a6ad577ab",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:03:10Z",
+    "component": {
+      "type": "application",
+      "name": "L_AGENCYSWARM",
+      "version": "a0d16dde6ecf",
+      "bom-ref": "pkg:generic/anticloud/L_AGENCYSWARM@a0d16dde6ecf",
+      "purl": "pkg:generic/anticloud/L_AGENCYSWARM@a0d16dde6ecf",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a0d16dde6ecf205211f639d613eceef0cc42ae20"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/crewAIInc/crewAI.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "click",
+      "version": ">=8.1.7",
+      "purl": "pkg:pypi/click@8.1.7",
+      "bom-ref": "pypi/click@>=8.1.7"
+    },
+    {
+      "type": "library",
+      "name": "tomlkit",
+      "version": "~=0.13.2",
+      "purl": "pkg:pypi/tomlkit@0.13.2",
+      "bom-ref": "pypi/tomlkit@~=0.13.2"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": ">=1.83.0",
+      "purl": "pkg:pypi/openai@1.83.0",
+      "bom-ref": "pypi/openai@>=1.83.0"
+    },
+    {
+      "type": "library",
+      "name": "python-dotenv",
+      "version": ">=1.2.2",
+      "purl": "pkg:pypi/python-dotenv@1.2.2",
+      "bom-ref": "pypi/python-dotenv@>=1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "pygithub",
+      "version": "~=1.59.1",
+      "purl": "pkg:pypi/pygithub@1.59.1",
+      "bom-ref": "pypi/pygithub@~=1.59.1"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "~=6.0",
+      "purl": "pkg:pypi/pyyaml@6.0",
+      "bom-ref": "pypi/pyyaml@~=6.0"
+    },
+    {
+      "type": "library",
+      "name": "rich",
+      "version": ">=13.9.4",
+      "purl": "pkg:pypi/rich@13.9.4",
+      "bom-ref": "pypi/rich@>=13.9.4"
+    },
+    {
+      "type": "library",
+      "name": "pytube",
+      "version": "~=15.0.0",
+      "purl": "pkg:pypi/pytube@15.0.0",
+      "bom-ref": "pypi/pytube@~=15.0.0"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.33.0",
+      "purl": "pkg:pypi/requests@2.33.0",
+      "bom-ref": "pypi/requests@>=2.33.0"
+    },
+    {
+      "type": "library",
+      "name": "crewai",
+      "version": "==1.15.23",
+      "purl": "pkg:pypi/crewai@1.15.23",
+      "bom-ref": "pypi/crewai@==1.15.23"
+    },
+    {
+      "type": "library",
+      "name": "tiktoken",
+      "version": ">=0.8.0",
+      "purl": "pkg:pypi/tiktoken@0.8.0",
+      "bom-ref": "pypi/tiktoken@>=0.8.0"
+    },
+    {
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": ">=4.13.4",
+      "purl": "pkg:pypi/beautifulsoup4@4.13.4",
+      "bom-ref": "pypi/beautifulsoup4@>=4.13.4"
+    },
+    {
+      "type": "library",
+      "name": "python-docx",
+      "version": "~=1.2.0",
+      "purl": "pkg:pypi/python-docx@1.2.0",
+      "bom-ref": "pypi/python-docx@~=1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "youtube-transcript-api",
+      "version": "~=1.2.2",
+      "purl": "pkg:pypi/youtube-transcript-api@1.2.2",
+      "bom-ref": "pypi/youtube-transcript-api@~=1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "pymupdf",
+      "version": "~=1.26.6",
+      "purl": "pkg:pypi/pymupdf@1.26.6",
+      "bom-ref": "pypi/pymupdf@~=1.26.6"
+    },
+    {
+      "type": "library",
+      "name": "Pillow",
+      "version": "~=12.3.0",
+      "purl": "pkg:pypi/pillow@12.3.0",
+      "bom-ref": "pypi/Pillow@~=12.3.0"
+    },
+    {
+      "type": "library",
+      "name": "pypdf",
+      "version": "~=6.16.1",
+      "purl": "pkg:pypi/pypdf@6.16.1",
+      "bom-ref": "pypi/pypdf@~=6.16.1"
+    },
+    {
+      "type": "library",
+      "name": "python-magic",
+      "version": ">=0.4.27",
+      "purl": "pkg:pypi/python-magic@0.4.27",
+      "bom-ref": "pypi/python-magic@>=0.4.27"
+    },
+    {
+      "type": "library",
+      "name": "aiocache",
+      "version": "~=0.12.3",
+      "purl": "pkg:pypi/aiocache@0.12.3",
+      "bom-ref": "pypi/aiocache@~=0.12.3"
+    },
+    {
+      "type": "library",
+      "name": "aiofiles",
+      "version": "~=24.1.0",
+      "purl": "pkg:pypi/aiofiles@24.1.0",
+      "bom-ref": "pypi/aiofiles@~=24.1.0"
+    },
+    {
+      "type": "library",
+      "name": "tinytag",
+      "version": "~=2.2.1",
+      "purl": "pkg:pypi/tinytag@2.2.1",
+      "bom-ref": "pypi/tinytag@~=2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "av",
+      "version": "~=13.0.0",
+      "purl": "pkg:pypi/av@13.0.0",
+      "bom-ref": "pypi/av@~=13.0.0"
+    },
+    {
+      "type": "library",
+      "name": "appdirs",
+      "version": "~=1.4.4",
+      "purl": "pkg:pypi/appdirs@1.4.4",
+      "bom-ref": "pypi/appdirs@~=1.4.4"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": ">=42.0",
+      "purl": "pkg:pypi/cryptography@42.0",
+      "bom-ref": "pypi/cryptography@>=42.0"
+    },
+    {
+      "type": "library",
+      "name": "httpx",
+      "version": "~=0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "bom-ref": "pypi/httpx@~=0.28.1"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": ">=23.0",
+      "purl": "pkg:pypi/packaging@23.0",
+      "bom-ref": "pypi/packaging@>=23.0"
+    },
+    {
+      "type": "library",
+      "name": "portalocker",
+      "version": "~=2.7.0",
+      "purl": "pkg:pypi/portalocker@2.7.0",
+      "bom-ref": "pypi/portalocker@~=2.7.0"
+    },
+    {
+      "type": "library",
+      "name": "pyjwt",
+      "version": ">=2.13.0",
+      "purl": "pkg:pypi/pyjwt@2.13.0",
+      "bom-ref": "pypi/pyjwt@>=2.13.0"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.11.9",
+      "purl": "pkg:pypi/pydantic@2.11.9",
+      "bom-ref": "pypi/pydantic@>=2.11.9"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-api",
+      "version": ">=1.42",
+      "purl": "pkg:pypi/opentelemetry-api@1.42",
+      "bom-ref": "pypi/opentelemetry-api@>=1.42"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-sdk",
+      "version": ">=1.42",
+      "purl": "pkg:pypi/opentelemetry-sdk@1.42",
+      "bom-ref": "pypi/opentelemetry-sdk@>=1.42"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-exporter-otlp-proto-http",
+      "version": ">=1.42",
+      "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.42",
+      "bom-ref": "pypi/opentelemetry-exporter-otlp-proto-http@>=1.42"
+    },
+    {
+      "type": "library",
+      "name": "tomli",
+      "version": "~=2.0.2",
+      "purl": "pkg:pypi/tomli@2.0.2",
+      "bom-ref": "pypi/tomli@~=2.0.2"
+    },
+    {
+      "type": "library",
+      "name": "crewai-core",
+      "version": "==1.15.23",
+      "purl": "pkg:pypi/crewai-core@1.15.23",
+      "bom-ref": "pypi/crewai-core@==1.15.23"
+    },
+    {
+      "type": "library",
+      "name": "crewai-cli",
+      "version": "==1.15.23",
+      "purl": "pkg:pypi/crewai-cli@1.15.23",
+      "bom-ref": "pypi/crewai-cli@==1.15.23"
+    },
+    {
+      "type": "library",
+      "name": "instructor",
+      "version": ">=1.3.3",
+      "purl": "pkg:pypi/instructor@1.3.3",
+      "bom-ref": "pypi/instructor@>=1.3.3"
+    },
+    {
+      "type": "library",
+      "name": "pdfplumber",
+      "version": "~=0.11.4",
+      "purl": "pkg:pypi/pdfplumber@0.11.4",
+      "bom-ref": "pypi/pdfplumber@~=0.11.4"
+    },
+    {
+      "type": "library",
+      "name": "regex",
+      "version": "~=2026.1.15",
+      "purl": "pkg:pypi/regex@2026.1.15",
+      "bom-ref": "pypi/regex@~=2026.1.15"
+    },
+    {
+      "type": "library",
+      "name": "chromadb",
+      "version": "~=1.1.0",
+      "purl": "pkg:pypi/chromadb@1.1.0",
+      "bom-ref": "pypi/chromadb@~=1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "tokenizers",
+      "version": ">=0.21",
+      "purl": "pkg:pypi/tokenizers@0.21",
+      "bom-ref": "pypi/tokenizers@>=0.21"
+    },
+    {
+      "type": "library",
+      "name": "openpyxl",
+      "version": "~=3.1.5",
+      "purl": "pkg:pypi/openpyxl@3.1.5",
+      "bom-ref": "pypi/openpyxl@~=3.1.5"
+    },
+    {
+      "type": "library",
+      "name": "jsonref",
+      "version": "~=1.1.0",
+      "purl": "pkg:pypi/jsonref@1.1.0",
+      "bom-ref": "pypi/jsonref@~=1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "json-repair",
+      "version": "~=0.60.1",
+      "purl": "pkg:pypi/json-repair@0.60.1",
+      "bom-ref": "pypi/json-repair@~=0.60.1"
+    },
+    {
+      "type": "library",
+      "name": "cel-python",
+      "version": ">=0.5.0",
+      "purl": "pkg:pypi/cel-python@0.5.0",
+      "bom-ref": "pypi/cel-python@>=0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "tomli-w",
+      "version": "~=1.1.0",
+      "purl": "pkg:pypi/tomli-w@1.1.0",
+      "bom-ref": "pypi/tomli-w@~=1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "json5",
+      "version": "~=0.10.0",
+      "purl": "pkg:pypi/json5@0.10.0",
+      "bom-ref": "pypi/json5@~=0.10.0"
+    },
+    {
+      "type": "library",
+      "name": "pydantic-settings",
+      "version": ">=2.14.2",
+      "purl": "pkg:pypi/pydantic-settings@2.14.2",
+      "bom-ref": "pypi/pydantic-settings@>=2.14.2"
+    },
+    {
+      "type": "library",
+      "name": "mcp",
+      "version": "~=1.28.1",
+      "purl": "pkg:pypi/mcp@1.28.1",
+      "bom-ref": "pypi/mcp@~=1.28.1"
+    },
+    {
+      "type": "library",
+      "name": "aiosqlite",
+      "version": "~=0.21.0",
+      "purl": "pkg:pypi/aiosqlite@0.21.0",
+      "bom-ref": "pypi/aiosqlite@~=0.21.0"
+    },
+    {
+      "type": "library",
+      "name": "lancedb",
+      "version": ">=0.29.2",
+      "purl": "pkg:pypi/lancedb@0.29.2",
+      "bom-ref": "pypi/lancedb@>=0.29.2"
+    },
+    {
+      "type": "library",
+      "name": "uv",
+      "version": "~=0.11.6",
+      "purl": "pkg:pypi/uv@0.11.6",
+      "bom-ref": "pypi/uv@~=0.11.6"
+    },
+    {
+      "type": "library",
+      "name": "textual",
+      "version": ">=7.5.0",
+      "purl": "pkg:pypi/textual@7.5.0",
+      "bom-ref": "pypi/textual@>=7.5.0"
+    },
+    {
+      "type": "library",
+      "name": "certifi",
+      "version": "unspecified",
+      "purl": "pkg:pypi/certifi",
+      "bom-ref": "pypi/certifi@unspecified"
+    }
+  ]
+}
